@@ -1,0 +1,1 @@
+<?php return array(0 => array('secret' => '3d7a96ba159a98e96fd1ca4c81a6321e','folder' => 'C:\\wamp\\www\\taoplatform\\generis\\data\\tao\\public\\'));

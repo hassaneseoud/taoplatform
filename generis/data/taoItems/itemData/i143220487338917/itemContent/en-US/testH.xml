@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+
+<Tests>
+  <Test TestId="0001" TestType="CMD">
+    <Name>Convert number to string</Name>
+   
+    <Output>One</Output>
+  </Test>
+  <Test TestId="0002" TestType="CMD">
+    <Name>Find succeeding characters</Name>
+   
+    <Output>def</Output>
+  </Test>
+ 
+</Tests>

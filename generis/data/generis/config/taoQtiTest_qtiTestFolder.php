@@ -1,0 +1,1 @@
+<?php return 'http://localhost/taoplatform/Hassane.rdf#i1432204891979846';

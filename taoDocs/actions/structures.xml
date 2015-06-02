@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension SYSTEM "../../tao/doc/structures.dtd">
+<structures>
+<structure id='taoDocs' name="Documents" level="7" visible="true">
+  <description>An example extension.</description>
+  <sections>
+   <!-- <section id="manage_docs" name="Manage documents" url="/taoDocs/Browser/index">
+      <trees>
+<tree name="Documents library" dataUrl="/taoDocs/Browser/getTreeData" editInstanceUrl="/taoDocs/Browser/editDocument" />
+      </trees>
+      <actions>
+	  <action name="delete" url="/taoDocs/Browser/delete" context="instance" />
+      </actions>
+    </section> -->
+	
+	
+	<section id="manage_items" name="Manage items" url="/taoItems/Items/index">
+				<trees>
+					<tree name="Items library"
+						className="Item"
+						dataUrl="/taoItems/Items/getOntologyData"
+						editClassUrl="/taoItems/Items/editItemClass"
+						editInstanceUrl="/taoItems/Items/editItem"
+						addInstanceUrl="/taoItems/Items/addInstance"
+						addSubClassUrl="/taoItems/Items/addSubClass"
+						deleteUrl="/taoItems/Items/delete"
+						duplicateUrl="/taoItems/Items/cloneInstance"
+						moveInstanceUrl="/taoItems/Items/moveInstance"
+					/>
+				</trees>
+				<actions>
+					<action name="delete" url="/taoDocs/Browser/delete" context="instance" />
+					<action name="affiche" url="/taoDocs/Browser/affiche" context="instance" />
+				</actions>
+			</section>
+  </sections>
+</structure>
+</structures>
+
+
+

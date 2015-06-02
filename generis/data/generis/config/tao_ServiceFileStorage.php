@@ -1,0 +1,1 @@
+<?php return array('private' => 'http://localhost/taoplatform/Hassane.rdf#i143220482437393','public' => 'http://localhost/taoplatform/Hassane.rdf#i143220482351022','provider' => 0);
